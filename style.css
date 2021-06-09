@@ -1,0 +1,85 @@
+h1 {
+  text-align: center;
+}
+
+hr.new2 {
+  border-top: 1px dashed red;
+}
+
+.inputBtn {
+  height: 110px;
+  width: 272px;
+}
+
+.col {
+  width: 300px;
+  height: 180px;
+  padding: 15px;
+  background-color: darkcyan;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.addProduct {
+  margin-top: 10px;
+}
+
+.listWrap {
+  height: 800px;
+  width: 742px;
+  margin-top: 8px;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: table;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.list li {
+  background-color: #f0f0f0;
+  display: table-row;
+  color: #5c5c5c;
+}
+
+.list li:nth-child(odd) {
+  display: table-row;
+  font-size: 9pt;
+}
+
+.list li:nth-child(even) {
+  display: table-row;
+  font-size: 9pt;
+}
+
+.list li:nth-child(1) span:first-child {
+  border-top-left-radius: 6px;
+}
+
+.list li:nth-child(1) span:last-child {
+  border-top-right-radius: 6px;
+}
+
+.list li:nth-child(1) {
+  text-transform: uppercase;
+  font-size: 8pt;
+}
+
+.list li:nth-child(1):hover {
+}
+
+.list li:nth-child(1) span {
+  padding: 14px;
+}
+
+.list span {
+  text-align: left;
+  display: table-cell;
+  padding: 6px;
+  vertical-align: middle;
+}
+
+.list span:nth-child(2) {
+}

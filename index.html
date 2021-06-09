@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweet Tweet Project</title>
+    <link rel="stylesheet" href="style.css">
+   <!-- Latest compiled and minified CSS -->
+   <!-- Optional theme -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Tweet Tweet</h1>
+            <hr class="new2">
+
+            <div class="col-lg-12">
+                <div class="col-lg-4">
+                    
+                    <div class="col">
+                        <form>
+                            <!-- <textarea name="" class="form-control" id="" cols="35" rows="5"></textarea> -->
+                            <input type="text" class="inputBtn">
+                            <p class="keyNum" style="color: black"><span>0</span>/150</p>
+                            <button class="btn btn-primary addProduct">Submit</button>
+
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                       
+                        <div class="listWrap">
+                            <input type="text" class="filterTweet" class="form-control">
+                           
+                            <ul class="list collection">
+                            
+                               
+                               
+                                <!-- <li>
+                                    <span>23</span>
+                                    <span>Harry Giles</span>
+                                   
+                                    <span>
+                                    <button type="button" class="btn btn-default delete-tweet">Delete</button>
+                                    </span>
+                                   
+                                </li> -->
+                                
+
+                                
+                                
+                              
+                            </ul>
+                            <span class="msg"></span>
+                    
+                        </div>
+                    
+                   
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+    <script src="https://unpkg.com/dayjs@1.8.21/plugin/relativeTime.js"></script>
+    <script src="https://unpkg.com/dayjs@1.8.21/plugin/localizedFormat.js"></script>
+    <script>dayjs.extend(window.dayjs_plugin_relativeTime)</script>
+    <script>dayjs.extend(window.dayjs_plugin_localizedFormat)</script>
+    <script src="app.js"></script>
+   
+</body>
+</html>
